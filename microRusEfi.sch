@@ -1704,4 +1704,96 @@ F 7 "DNP" H 4600 0   50  0001 C CNN "Manufacturer"
 $EndComp
 Text Label 10750 4800 0    60   ~ 12
 AV9
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5DB69683
+P 15750 8450
+F 0 "H1" V 15704 8600 50  0000 L CNN
+F 1 "MountingHole" V 15795 8600 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 15750 8450 50  0001 C CNN
+F 3 "~" H 15750 8450 50  0001 C CNN
+F 4 "DNP" H 15750 8450 50  0001 C CNN "Manufacturer"
+F 5 "DNP" H 15750 8450 50  0001 C CNN "Part #"
+F 6 "DNP" H 15750 8450 50  0001 C CNN "VEND"
+F 7 "DNP" H 15750 8450 50  0001 C CNN "VEND#"
+	1    15750 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5DB6AD9C
+P 15750 8750
+F 0 "H2" V 15704 8900 50  0000 L CNN
+F 1 "MountingHole" V 15795 8900 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 15750 8750 50  0001 C CNN
+F 3 "~" H 15750 8750 50  0001 C CNN
+F 4 "DNP" H 15750 8750 50  0001 C CNN "Manufacturer"
+F 5 "DNP" H 15750 8750 50  0001 C CNN "Part #"
+F 6 "DNP" H 15750 8750 50  0001 C CNN "VEND"
+F 7 "DNP" H 15750 8750 50  0001 C CNN "VEND#"
+	1    15750 8750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5DB6AFCF
+P 15750 9050
+F 0 "H3" V 15704 9200 50  0000 L CNN
+F 1 "MountingHole" V 15795 9200 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 15750 9050 50  0001 C CNN
+F 3 "~" H 15750 9050 50  0001 C CNN
+F 4 "DNP" H 15750 9050 50  0001 C CNN "Manufacturer"
+F 5 "DNP" H 15750 9050 50  0001 C CNN "Part #"
+F 6 "DNP" H 15750 9050 50  0001 C CNN "VEND"
+F 7 "DNP" H 15750 9050 50  0001 C CNN "VEND#"
+	1    15750 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5DB6B1B5
+P 15750 9350
+F 0 "H4" V 15704 9500 50  0000 L CNN
+F 1 "MountingHole" V 15795 9500 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad_Via" H 15750 9350 50  0001 C CNN
+F 3 "~" H 15750 9350 50  0001 C CNN
+F 4 "DNP" H 15750 9350 50  0001 C CNN "Manufacturer"
+F 5 "DNP" H 15750 9350 50  0001 C CNN "Part #"
+F 6 "DNP" H 15750 9350 50  0001 C CNN "VEND"
+F 7 "DNP" H 15750 9350 50  0001 C CNN "VEND#"
+	1    15750 9350
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	15350 8100 15350 9700
+Wire Notes Line
+	15350 9700 16450 9700
+Wire Notes Line
+	16450 9700 16450 8100
+Wire Notes Line
+	16450 8100 15350 8100
+Text Notes 15350 8200 0    50   ~ 0
+Mechanical
+Wire Wire Line
+	15650 8450 15650 8750
+$Comp
+L power:GND #PWR0159
+U 1 1 5DB98A97
+P 15650 9450
+F 0 "#PWR0159" H 15650 9200 50  0001 C CNN
+F 1 "GND" H 15655 9277 50  0000 C CNN
+F 2 "" H 15650 9450 50  0001 C CNN
+F 3 "" H 15650 9450 50  0001 C CNN
+	1    15650 9450
+	1    0    0    -1  
+$EndComp
+Connection ~ 15650 8750
+Wire Wire Line
+	15650 8750 15650 9050
+Connection ~ 15650 9050
+Wire Wire Line
+	15650 9050 15650 9350
+Connection ~ 15650 9350
+Wire Wire Line
+	15650 9350 15650 9450
 $EndSCHEMATC
