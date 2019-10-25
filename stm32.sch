@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:microRusEfi-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -971,12 +971,12 @@ U 1 1 5CDEB9A6
 P 11500 4200
 F 0 "J1" H 11557 4667 50  0000 C CNN
 F 1 "USB_B_Micro" H 11557 4576 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105133-0031" H 11650 4150 50  0001 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Wuerth-614105150721_Vertical" H 11650 4150 50  0001 C CNN
 F 3 "~" H 11650 4150 50  0001 C CNN
-F 4 "MOLEX" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "105133-0031" H 0   0   50  0001 C CNN "Part #"
-F 6 "MOUSER" H 0   0   50  0001 C CNN "VEND"
-F 7 "538-105133-0031" H 0   0   50  0001 C CNN "VEND#"
+F 4 "GCT" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "USB3131-30-0230-A" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "2073-USB3131-30-0230-ACT-ND" H 0   0   50  0001 C CNN "VEND#"
 	1    11500 4200
 	1    0    0    -1  
 $EndComp
